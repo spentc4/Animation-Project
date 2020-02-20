@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:..">
+   </FileRef>
+   <FileRef
+      location = "group:../../Steve.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../steve2.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../steve3.png">
+   </FileRef>
+   <FileRef
       location = "self:Animation Project.xcodeproj">
    </FileRef>
 </Workspace>

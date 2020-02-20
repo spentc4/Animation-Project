@@ -15,6 +15,7 @@
 		D85145E423FE207E001E404A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85145E223FE207E001E404A /* LaunchScreen.storyboard */; };
 		D85145EF23FE207F001E404A /* Animation_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85145EE23FE207F001E404A /* Animation_ProjectTests.swift */; };
 		D85145FA23FE207F001E404A /* Animation_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85145F923FE207F001E404A /* Animation_ProjectUITests.swift */; };
+		D851462123FE2889001E404A /* Animation Project in Resources */ = {isa = PBXBuildFile; fileRef = D851460C23FE2887001E404A /* Animation Project */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D85145F523FE207F001E404A /* Animation ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85145F923FE207F001E404A /* Animation_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_ProjectUITests.swift; sourceTree = "<group>"; };
 		D85145FB23FE207F001E404A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D851460C23FE2887001E404A /* Animation Project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animation Project"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D85145D923FE207A001E404A /* SceneDelegate.swift */,
 				D85145DB23FE207A001E404A /* ViewController.swift */,
 				D85145DD23FE207A001E404A /* Main.storyboard */,
+				D851460C23FE2887001E404A /* Animation Project */,
 				D85145E023FE207E001E404A /* Assets.xcassets */,
 				D85145E223FE207E001E404A /* LaunchScreen.storyboard */,
 				D85145E523FE207E001E404A /* Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D85145E423FE207E001E404A /* LaunchScreen.storyboard in Resources */,
+				D851462123FE2889001E404A /* Animation Project in Resources */,
 				D85145E123FE207E001E404A /* Assets.xcassets in Resources */,
 				D85145DF23FE207A001E404A /* Main.storyboard in Resources */,
 			);
@@ -434,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VVTL2X6H2N;
 				INFOPLIST_FILE = "Animation Project/Info.plist";
@@ -443,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "spencercurran.com.Animation-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VVTL2X6H2N;
 				INFOPLIST_FILE = "Animation Project/Info.plist";
@@ -461,6 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "spencercurran.com.Animation-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
